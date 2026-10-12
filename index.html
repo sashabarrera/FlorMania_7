@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <!-- Encabezado y menús de navegación -->
     <header class="header">
         <nav class="nav">
             <div class="logo-nav">
@@ -20,11 +19,10 @@
             <div class="links">
                 <a href="#" id="enlaceEnvio">Envía Flores</a>
                 <a href="#">Nosotros</a>
-                <button class="btn-sesion">Iniciar Sesión</button>
+                <button class="btn-sesion" id="iniciarSesionBtn">Iniciar Sesión</button>
             </div>
         </nav>
 
-        <!-- Barra secundaria de categorías -->
         <div class="sub-nav">
             <a href="#">Girasoles</a>
             <a href="#">Rosas</a>
@@ -34,9 +32,7 @@
         </div>
     </header>
 
-    <!-- Contenido principal -->
     <main>
-        <!-- Sección de Flor del Mes -->
         <section class="main-secction">
             <div class="section-header">
                 <h2>Flor del Mes</h2>
@@ -54,7 +50,6 @@
             </div>
         </section>
 
-        <!-- Sección de tarjetas de productos -->
         <section class="destinos-section">
             <div class="destinos">
                 
@@ -69,8 +64,8 @@
                             <span class="precio">$48.00</span>
                         </div>
                         <div>
-                            <!-- Botón con comando para eliminarse al hacer clic -->
-                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                            <!-- Usamos una clase 'btn-comprar' para controlarlo desde JavaScript -->
+                            <button class="btn-comprar">Comprar</button>
                         </div>
                     </div>
                 </article>
@@ -86,7 +81,7 @@
                             <span class="precio">$50.00</span>
                         </div>
                         <div>
-                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                            <button class="btn-comprar">Comprar</button>
                         </div>
                     </div>
                 </article>
@@ -102,7 +97,7 @@
                             <span class="precio">$15.00</span>
                         </div>
                         <div>
-                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                            <button class="btn-comprar">Comprar</button>
                         </div>
                     </div>
                 </article>
@@ -111,7 +106,6 @@
         </section>
     </main>
 
-    <!-- Pie de página -->
     <footer class="footer">
         <p>© 2026 FlorManía</p>
     </footer>

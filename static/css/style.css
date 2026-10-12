@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +9,6 @@ body {
     background-color: white;
 }
 
-/* Estilos de la barra superior */
 .header {
     background-color: #e8c5d1;
     border-bottom: 2px solid #ccc;
@@ -51,7 +49,6 @@ body {
     cursor: pointer;
 }
 
-/* Estilos de la sub-barra gris */
 .sub-nav {
     display: flex;
     justify-content: center;
@@ -66,7 +63,6 @@ body {
     font-size: 14px;
 }
 
-/* Sección principal y banner */
 .main-secction {
     width: 90%;
     max-width: 1000px;
@@ -99,7 +95,6 @@ body {
     text-decoration: none;
 }
 
-/* Contenedor y diseño de las tarjetas */
 .destinos-section {
     width: 90%;
     max-width: 1000px;
@@ -157,7 +152,6 @@ body {
     cursor: pointer;
 }
 
-/* Pie de página */
 .footer {
     background-color: #d1d1d1;
     height: 50px;

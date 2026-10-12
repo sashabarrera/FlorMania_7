@@ -1,0 +1,169 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* Estilos de la barra superior */
+.header {
+    background-color: #e8c5d1;
+    border-bottom: 2px solid #ccc;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo-texto {
+    font-size: 24px;
+}
+
+.logo-texto span {
+    color: #444;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.btn-sesion {
+    padding: 5px 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos de la sub-barra gris */
+.sub-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #d1d1d1;
+    padding: 10px;
+}
+
+.sub-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Sección principal y banner */
+.main-secction {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.section-header h2 {
+    margin-bottom: 15px;
+}
+
+.hero-imagen {
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.info-resultados {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.info-resultados a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Contenedor y diseño de las tarjetas */
+.destinos-section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.destinos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.destino-card {
+    border: 1px solid #ccc;
+    background-color: #e6e6e6;
+    width: 300px;
+    padding: 10px;
+}
+
+.card-imagen {
+    border: 1px solid black;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info-precio {
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.precio {
+    font-size: 12px;
+    color: #333;
+}
+
+.btn-comprar {
+    padding: 5px 15px;
+    background-color: #e8c5d1;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #d1d1d1;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 2px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

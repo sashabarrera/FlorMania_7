@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SashaBarrera">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>FlorManía</title>
+</head>
+
+<body>
+    <!-- Encabezado y menús de navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-nav">
+                <h1 class="logo-texto">Flor<span>Manía</span></h1>
+            </div>
+            
+            <div class="links">
+                <a href="#" id="enlaceEnvio">Envía Flores</a>
+                <a href="#">Nosotros</a>
+                <button class="btn-sesion">Iniciar Sesión</button>
+            </div>
+        </nav>
+
+        <!-- Barra secundaria de categorías -->
+        <div class="sub-nav">
+            <a href="#">Girasoles</a>
+            <a href="#">Rosas</a>
+            <a href="#">Claveles</a>
+            <a href="#">Orquídeas</a>
+            <a href="#">Margaritas</a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección de Flor del Mes -->
+        <section class="main-secction">
+            <div class="section-header">
+                <h2>Flor del Mes</h2>
+            </div>
+            
+            <div class="hero-imagen">
+                <div class="imagen-placeholder">
+                    <img src="static/images/tecnologia.png" alt="Flor del mes">
+                </div>
+            </div>
+
+            <div class="info-resultados">
+                <p>Mostrando 50 resultados</p>
+                <a href="#">Ver más flores</a>
+            </div>
+        </section>
+
+        <!-- Sección de tarjetas de productos -->
+        <section class="destinos-section">
+            <div class="destinos">
+                
+                <!-- Tarjeta 1 -->
+                <article class="destino-card">
+                    <div class="card-imagen">
+                        <img src="static/images/soporte-tecnico.png" alt="Ramo de Rosas">
+                    </div>
+                    <div class="card-contenido">
+                        <div class="info-precio">
+                            <span class="descripcion">Ramo de Rosas</span>
+                            <span class="precio">$48.00</span>
+                        </div>
+                        <div>
+                            <!-- Botón con comando para eliminarse al hacer clic -->
+                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 2 -->
+                <article class="destino-card">
+                    <div class="card-imagen">
+                        <img src="static/images/soporte-tecnico.png" alt="Arreglo Tulipanes">
+                    </div>
+                    <div class="card-contenido">
+                        <div class="info-precio">
+                            <span class="descripcion">Arreglo Tulipanes</span>
+                            <span class="precio">$50.00</span>
+                        </div>
+                        <div>
+                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 3 -->
+                <article class="destino-card">
+                    <div class="card-imagen">
+                        <img src="static/images/soporte-tecnico.png" alt="Bouquet Lirios">
+                    </div>
+                    <div class="card-contenido">
+                        <div class="info-precio">
+                            <span class="descripcion">Bouquet Lirios</span>
+                            <span class="precio">$15.00</span>
+                        </div>
+                        <div>
+                            <button class="btn-comprar" onclick="this.remove()">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>© 2026 FlorManía</p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
